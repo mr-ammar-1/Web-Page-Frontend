@@ -10,6 +10,9 @@ import Section6 from "./components/Section6";
 import MADServiceProcess from "./components/MADServiceProcess";
 import TechandFram from "./components/TechandFram";
 import OurLatestProjects from "./components/OurLatestProjects";
+import BlogsAndArticles from "./components/BlogsAndArticles";
+import ReadyToStart from "./components/ReadyToStart";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -26,6 +29,10 @@ export default function Home() {
    <MADServiceProcess/>
    <TechandFram/>
    <OurLatestProjects/>
+   <BlogsAndArticles/>
+   <ReadyToStart/>
+   <Footer/>
+   
 
   </div>
   );
