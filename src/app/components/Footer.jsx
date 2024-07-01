@@ -79,7 +79,7 @@ const Footer = () => {
       <div className=' flex-col pl-20'>
         <h1 className='font-normal pt-16 text-white text-xl '>Let's do it! — </h1>
 
-    <button className='text-footerColor bg-white  border-2 font-semibold text-md mt-10   px-10 py-1 rounded-3xl'>Let's Connect !</button>
+    <button className='text-footerColor bg-white  border-2 font-semibold text-md mt-10 hover:bg-customWhite transition-all duration-300 px-10 py-1 rounded-3xl'>Let's Connect !</button>
 
 
 
@@ -129,7 +129,7 @@ const Footer = () => {
         <h1 className='font-semibold text-white text-xl '>Email Address</h1>
     </div>
     <div className='flex flex-col'>
-    <p className='text-left xl:w-[290px] text-customWhite w-full mt-3 text-sm font-normal'> <span className='mr-7 font-semibold text-white'>Italy & Pakistan : </span>info@ml-bench.com</p>
+    <p className='text-left xl:w-[290px] text-customWhite w-full mt-3 text-sm font-normal'> <span className='mr-3 font-semibold text-white'>Italy & Pakistan : </span>info@ml-bench.com</p>
     
     </div>
 
