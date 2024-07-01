@@ -18,7 +18,8 @@ const BlogsAndArticles = () => {
       </div>
 
         <div className='flex flex-col gap-10'>
-        <div className='lg:mt-0 lg:p-5 p-10 mt-5 flex border-1 border-white rounded-xl ml-10 w-[full] shadow-lg ' >
+
+        <div className='lg:mt-0 lg:p-5 p-10 mt-5 flex flex-col sm:flex-row border-1 border-white rounded-xl gap-10 w-[full] shadow-lg ' >
         <img src="./Frame2.png" alt="" />
         <div className='flex flex-col ml-5'>
       <h1 className='text-left w-full lg:text-2xl text-xl font-semibold '>Top 10 reasons to hira a <br /> dedicated team member</h1>
@@ -29,9 +30,9 @@ const BlogsAndArticles = () => {
 
 
 
-      <div className='lg:mt-0 lg:p-5 p-10 mt-5 flex border-1 border-white rounded-xl ml-10 w-[full] shadow-lg ' >
+      <div className='lg:mt-0 lg:p-5 p-10 mt-5 flex flex-col sm:flex-row border-1 border-white rounded-xl gap-10 w-[full] shadow-lg ' >
         <img src="./Frame3.png" alt="" />
-        <div className='flex flex-col ml-5'>
+        <div className='flex flex-col gapml-5'>
       <h1 className='text-left w-full lg:text-2xl text-xl font-semibold '>Devin AI Software engineer <br /> begining of....</h1>
       <p className='text-left xl:w-[380px] w-full mt-5 mr-2 font-normal'>Have you ever thought that you would encounter an AI-driven…</p>
       <h1 className='text-blue-600 mt-5'>Read More ... </h1>
@@ -40,10 +41,9 @@ const BlogsAndArticles = () => {
 
 
 
-            <div className='lg:mt-0 lg:p-5 p-10 mt-5 flex border-1 border-white rounded-xl ml-10 w-[full] shadow-lg ' >
+            <div className='lg:mt-0 lg:p-5 p-10 mt-5 flex flex-col sm:flex-row border-1 border-white rounded-xl gap-10 w-[full] shadow-lg ' >
         <img src="./Frame4.png" alt="" />
-        <div className='flex flex-col ml-5'>
-      <h1 className='text-left w-full lg:text-2xl text-xl font-semibold '>Top 10 must have AI chatbot <br /> healthcare features</h1>
+        <div className='flex flex-col ml-5'> <h1 className='text-left w-full lg:text-2xl text-xl font-semibold '>Top 10 must have AI chatbot <br /> healthcare features</h1>
       <p className='text-left xl:w-[380px] w-full mt-5 mr-2 font-normal'>From powering self-driving cars to enhancing online customer experiences, artificial…</p>
       <h1 className='text-blue-600 mt-5'>Read More ... </h1>
       </div>
